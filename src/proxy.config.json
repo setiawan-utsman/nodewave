@@ -1,0 +1,13 @@
+[
+    {
+        "context": "/api/v1/apps",
+        "target": "https://fe-test-api.nwappservice.com",
+        "docs": "https://fe-test-api.nwappservice.com",
+        "logLevel": "debug",
+        "secure": false,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/api/v1/apps": ""
+        }
+    }
+]
