@@ -40,14 +40,14 @@ export default function SignInPage() {
       },
     })
 
-    console.log(login);
+    // console.log(login);
     
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="flex flex-col items-center gap-6">
         <div className="flex flex-col items-center gap-1">
-          <div className="text-5xl font-bold">Sign In</div>
+          <div className="text-5xl font-bold">Sign In to Nodewave</div>
           <div className="text-base text-[#92929D;]">
             Just sign in if you have an account in here. Enjoy our Website
           </div>
